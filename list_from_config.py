@@ -9,3 +9,4 @@ parser_numbers.read('./numbers.cfg')
 
 for number in parser_numbers.sections():
     print(os.environ.get("{}_NAME".format(number.upper())))
+    print("This is another unnecessary line")
